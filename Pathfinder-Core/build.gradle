@@ -43,7 +43,7 @@ model {
     
 }
 
-task install() {
+task localInstall() {
     doLast {
         binaries.each { binary ->
             println "Installing Binary: " + binary
